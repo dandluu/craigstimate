@@ -1,0 +1,445 @@
+{
+    "ak": [
+        "anchorage / mat-su",
+        "fairbanks"
+    ],
+    "al": [
+        "auburn",
+        "birmingham",
+        "huntsville / decatur",
+        "dothan",
+        "mobile",
+        "montgomery",
+        "tuscaloosa"
+    ],
+    "ar": [
+        "little rock",
+        "fayetteville",
+        "fort smith",
+        "jonesboro"
+    ],
+    "az": [
+        "phoenix",
+        "flagstaff / sedona",
+        "tucson",
+        "prescott",
+        "yuma",
+        "mohave county",
+        "show low",
+        "sierra vista"
+    ],
+    "ca": [
+        "reno / tahoe",
+        "sacramento",
+        "visalia-tulare",
+        "santa barbara",
+        "SF bay area",
+        "ventura county",
+        "san diego",
+        "san luis obispo",
+        "stockton",
+        "santa maria",
+        "yuba-sutter",
+        "bakersfield",
+        "fresno / madera",
+        "hanford-corcoran",
+        "humboldt county",
+        "inland empire",
+        "los angeles",
+        "gold country",
+        "chico",
+        "modesto",
+        "orange county",
+        "merced",
+        "palm springs",
+        "monterey bay",
+        "redding"
+    ],
+    "co": [
+        "boulder",
+        "colorado springs",
+        "denver",
+        "fort collins / north CO",
+        "western slope",
+        "high rockies",
+        "pueblo"
+    ],
+    "ct": [
+        "northwest CT",
+        "eastern CT",
+        "hartford",
+        "new haven"
+    ],
+    "dc": [
+        "washington, DC"
+    ],
+    "de": [
+        "delaware"
+    ],
+    "fl": [
+        "daytona beach",
+        "ft myers / SW florida",
+        "gainesville",
+        "jacksonville",
+        "ocala",
+        "heartland florida",
+        "lakeland",
+        "florida keys",
+        "orlando",
+        "panama city",
+        "pensacola",
+        "sarasota-bradenton",
+        "south florida",
+        "okaloosa / walton",
+        "space coast",
+        "tallahassee",
+        "tampa bay area",
+        "treasure coast",
+        "st augustine"
+    ],
+    "ga": [
+        "atlanta",
+        "augusta",
+        "brunswick",
+        "athens",
+        "albany",
+        "macon / warner robins",
+        "columbus",
+        "northwest GA",
+        "savannah / hinesville",
+        "valdosta"
+    ],
+    "hi": [
+        "hawaii"
+    ],
+    "ia": [
+        "ames",
+        "cedar rapids",
+        "des moines",
+        "omaha / council bluffs",
+        "fort dodge",
+        "iowa city",
+        "waterloo / cedar falls",
+        "sioux city"
+    ],
+    "id": [
+        "boise",
+        "east idaho",
+        "spokane / coeur d'alene",
+        "pullman / moscow"
+    ],
+    "il": [
+        "bloomington-normal",
+        "champaign urbana",
+        "chicago",
+        "decatur",
+        "quad cities, IA/IL",
+        "st louis, MO",
+        "peoria",
+        "springfield",
+        "rockford",
+        "southern illinois"
+    ],
+    "in": [
+        "evansville",
+        "bloomington",
+        "indianapolis",
+        "fort wayne",
+        "south bend / michiana",
+        "richmond",
+        "muncie / anderson",
+        "lafayette / west lafayette"
+    ],
+    "ks": [
+        "wichita",
+        "lawrence",
+        "manhattan",
+        "kansas city, MO",
+        "topeka"
+    ],
+    "ky": [
+        "bowling green",
+        "lexington",
+        "louisville",
+        "huntington-ashland"
+    ],
+    "la": [
+        "baton rouge",
+        "lafayette",
+        "monroe",
+        "new orleans",
+        "lake charles",
+        "shreveport",
+        "central louisiana",
+        "houma"
+    ],
+    "ma": [
+        "boston",
+        "south coast",
+        "western massachusetts",
+        "worcester / central MA",
+        "cape cod / islands"
+    ],
+    "md": [
+        "annapolis",
+        "baltimore",
+        "frederick",
+        "southern maryland",
+        "western maryland",
+        "eastern shore",
+        "cumberland valley"
+    ],
+    "me": [
+        "maine"
+    ],
+    "mi": [
+        "lansing",
+        "ann arbor",
+        "battle creek",
+        "detroit metro",
+        "holland",
+        "flint",
+        "kalamazoo",
+        "monroe",
+        "muskegon",
+        "saginaw-midland-baycity",
+        "grand rapids",
+        "central michigan",
+        "northern michigan",
+        "jackson",
+        "southwest michigan",
+        "port huron",
+        "south bend / michiana"
+    ],
+    "mn": [
+        "duluth / superior",
+        "fargo / moorhead",
+        "minneapolis / st paul",
+        "rochester",
+        "st cloud",
+        "mankato"
+    ],
+    "mo": [
+        "joplin",
+        "springfield",
+        "columbia / jeff city",
+        "st joseph"
+    ],
+    "ms": [
+        "gulfport / biloxi",
+        "hattiesburg",
+        "jackson",
+        "north mississippi",
+        "meridian"
+    ],
+    "mt": [
+        "billings",
+        "missoula",
+        "bozeman",
+        "kalispell"
+    ],
+    "nc": [
+        "asheville",
+        "charlotte",
+        "fayetteville",
+        "eastern NC",
+        "greensboro",
+        "jacksonville",
+        "raleigh / durham / CH",
+        "hickory / lenoir",
+        "wilmington",
+        "winston-salem"
+    ],
+    "nd": [
+        "north dakota",
+        "bismarck",
+        "grand forks"
+    ],
+    "ne": [
+        "lincoln",
+        "omaha / council bluffs"
+    ],
+    "nh": [
+        "new hampshire"
+    ],
+    "nj": [
+        "central NJ",
+        "north jersey",
+        "jersey shore",
+        "south jersey"
+    ],
+    "nm": [
+        "albuquerque",
+        "santa fe / taos",
+        "las cruces"
+    ],
+    "nv": [
+        "las vegas",
+        "reno / tahoe"
+    ],
+    "ny": [
+        "buffalo",
+        "ithaca",
+        "long island",
+        "hudson valley",
+        "syracuse",
+        "watertown",
+        "albany",
+        "new york city",
+        "binghamton",
+        "utica-rome-oneida",
+        "rochester",
+        "finger lakes",
+        "elmira-corning",
+        "glens falls",
+        "potsdam-canton-massena"
+    ],
+    "oh": [
+        "cincinnati",
+        "akron / canton",
+        "columbus",
+        "dayton / springfield",
+        "cleveland",
+        "toledo",
+        "northern panhandle",
+        "zanesville / cambridge",
+        "mansfield",
+        "athens",
+        "youngstown"
+    ],
+    "ok": [
+        "oklahoma city",
+        "lawton",
+        "texoma",
+        "tulsa",
+        "stillwater"
+    ],
+    "or": [
+        "bend",
+        "corvallis/albany",
+        "eugene",
+        "medford-ashland",
+        "oregon coast",
+        "portland",
+        "salem"
+    ],
+    "pa": [
+        "harrisburg",
+        "philadelphia",
+        "erie",
+        "pittsburgh",
+        "lehigh valley",
+        "scranton / wilkes-barre",
+        "altoona-johnstown",
+        "reading",
+        "williamsport",
+        "lancaster",
+        "state college",
+        "poconos",
+        "york"
+    ],
+    "ri": [
+        "rhode island"
+    ],
+    "sc": [
+        "charleston",
+        "columbia",
+        "greenville / upstate",
+        "myrtle beach",
+        "hilton head",
+        "florence"
+    ],
+    "sd": [
+        "sioux falls / SE SD",
+        "rapid city / west SD"
+    ],
+    "tn": [
+        "chattanooga",
+        "clarksville",
+        "jackson",
+        "memphis",
+        "knoxville",
+        "nashville",
+        "tri-cities"
+    ],
+    "tx": [
+        "amarillo",
+        "austin",
+        "college station",
+        "lubbock",
+        "dallas / fort worth",
+        "abilene",
+        "el paso",
+        "corpus christi",
+        "galveston",
+        "houston",
+        "killeen / temple / ft hood",
+        "laredo",
+        "mcallen / edinburg",
+        "brownsville",
+        "beaumont / port arthur",
+        "deep east texas",
+        "odessa / midland",
+        "waco",
+        "san antonio",
+        "san marcos",
+        "tyler / east TX",
+        "victoria",
+        "wichita falls"
+    ],
+    "ut": [
+        "provo / orem",
+        "ogden-clearfield",
+        "salt lake city",
+        "logan",
+        "st george"
+    ],
+    "va": [
+        "fredericksburg",
+        "charlottesville",
+        "lynchburg",
+        "norfolk / hampton roads",
+        "richmond",
+        "roanoke",
+        "winchester",
+        "harrisonburg",
+        "new river valley"
+    ],
+    "vt": [
+        "vermont"
+    ],
+    "wa": [
+        "bellingham",
+        "kennewick-pasco-richland",
+        "seattle-tacoma",
+        "moses lake",
+        "pullman / moscow",
+        "yakima",
+        "wenatchee",
+        "skagit / island / SJI",
+        "spokane / coeur d'alene"
+    ],
+    "wi": [
+        "madison",
+        "milwaukee",
+        "wausau",
+        "janesville",
+        "kenosha-racine",
+        "green bay",
+        "la crosse",
+        "appleton-oshkosh-FDL",
+        "eau claire",
+        "duluth / superior",
+        "sheboygan"
+    ],
+    "wv": [
+        "charleston",
+        "morgantown",
+        "eastern panhandle",
+        "huntington-ashland",
+        "northern panhandle"
+    ],
+    "wy": [
+        "wyoming"
+    ]
+}

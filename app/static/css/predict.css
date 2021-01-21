@@ -1,0 +1,25 @@
+#site-footer {
+    background-color: #2A2A2AB3 !important;
+    /* background-color: rgba(0, 0, 0, 0.5) !important; */
+    margin-top: bottom !important;
+    position: relative !important;
+    left: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    color: white !important;
+    text-align: center !important;
+    align-self: center !important;
+    overflow: hidden !important;
+}
+
+table {
+    color: white !important;
+}
+
+.source {
+    color:white;
+}
+
+.table-hover tbody tr:hover {
+    color: #6C757D;
+}

@@ -1,0 +1,136 @@
+{% extends 'layout.html' %}
+  
+{% block css%}
+  {% if prediction_text %}
+  <link rel="stylesheet" href="{{ url_for('static', filename='./css/main.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='./css/predict.css') }}">
+  {% else %}
+  <link rel="stylesheet" href="{{ url_for('static', filename='./css/main.css') }}">
+  {% endif %}
+{% endblock %}
+
+  {% block content %}
+  <main class="container-fluid vh-100" > 
+    <div class='row justify-content-center'>
+      <div class='col-lg-6 vh-80' id="inner">
+        
+        {% if prediction_text %}
+        <a class="btn btn-outline-secondary" href="{{ url_for('index') }}" role="button">Home</a>
+        <p class="text-center">
+          Your estimated monthly rent is $ <strong> {{ prediction_text }} </strong>
+        </p>
+
+        <p>
+          These were your selected options:
+        </p>
+        <table class="table table-hover table-sm justify-content-center">
+          <caption>
+            Sources: <a class='source' href="#">Code</a> | <a class="source" href="#">Dataset</a>
+          </caption>
+          <!-- <tr> -->
+          <!-- <th>Features</th> -->
+          <!-- <th>Selected</th> -->
+          <!-- </tr> -->
+          <tr>
+            <td class="text-align-left">State</td>
+            <td class="text-align-right">{{state_name}}</td>
+          </tr>
+
+          <tr>
+            <td class="text-align-left">Region</td>
+            <td class="text-align-right">{{features[0].title()}}</td>
+          </tr>
+          <tr>
+            <td>Home Type</td>
+            <td>{{features[1].title()}}</td>
+          </tr>
+          <tr>
+            <td>Square Footage</td>
+            <td>{{ features[2] }}</td>
+          </tr>
+          <tr>
+            <td>Number of Beds</td>
+            <td>{{features[3].title()}}</td>
+          </tr>
+          <tr>
+            <td>Number of Bathrooms</td>
+            <td>{{features[4]}}</td>
+          </tr>
+          <tr>
+            <td>Laundry Option</td>
+            <td>{{features[7].title()}}</td>
+          </tr>
+          <tr>
+            <td>Parking Option</td>
+            <td>{{features[8].title()}}</td>
+          </tr>
+          <tr>
+            <td>Smoking</td>
+            <td>{{features[5].title()}}</td>
+          </tr>
+          <tr>
+            <td>Pets</td>
+            <td>{{features[6].title()}}</td>
+          </tr>
+        </table>
+
+        <p>
+          Choose a state to predict again
+        </p>
+
+
+
+
+        {% endif %}
+
+        {% if not prediction_text %}
+        <h3>
+          Predict your regional rent based on location and preferences
+        </h3>
+        {% endif %}
+
+
+        <form action="{{ url_for('index') }}" method="POST">
+          {{ form.hidden_tag() }}
+          <div class="form-group">
+            <label for='{{form.state.label}}'> {{form.state.label}} </label>
+            {{form.state(class="form-control ")}}
+          </div>
+
+          {{form.submit(class="btn btn-outline-info")}}
+        </form>
+
+        {% if not prediction_text %}
+        <br>
+        <h6><strong>About the model</strong></h6>
+        
+        <p>
+          This model was built using a Random Forest Regressor model from scikitLearn. The data used to create this model comes
+          from a Kaggle dataset which includes all Craigslist listings in the U.S. from June of 2020. 
+        </p>
+          
+        <p>
+          To use this model, simply start by selecting your state. You will be directed to a new form where you will enter your
+          preferred region and similar housing options provided by Craigslist. Once submitted, you will get an estimated cost for rent in your region
+          <strong>PLEASE NOTE: ESTIMATED PRICES ARE FOR REGIONAL AREAS ONLY</strong> 
+          If the prices are higher than what you expect please realise that the model is predicting rent for an entire region within a state so there is high variation.
+        </p>
+          
+        <p>
+          <strong>Caveats:</strong>
+          The model is not dynamically retrained; therefore, fluctuations in rent prices from June 2020 to the time you run the
+          model may impact the accuracy of your rent prediction. Additionally, if regions across states are named the same, there will be errors in the prediction as well.
+        </p>
+        {% endif %}
+
+        
+        <br>
+
+        
+
+      </div>
+    </div>
+    
+    
+  </main>
+  {% endblock %}

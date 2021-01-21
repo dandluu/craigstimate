@@ -1,0 +1,63 @@
+{% extends 'layout.html' %}
+
+{% block css %}
+<!-- <link rel="stylesheet" href="{{ url_for('static', filename='./css/main.css') }}"> -->
+<link rel="stylesheet" href="{{ url_for('static', filename='./css/form.css') }}">
+{% endblock%}
+
+{% block content %}
+        <div class='row justify-content-center'>
+            <div class='col-md-4' id='inner'>
+                <form action="{{ url_for('get_data') }}" method="POST">
+                    {{ form.hidden_tag() }}
+                    <h4 >Current State: {{ state.upper() }}</h4>
+                    <div class="form-group">
+                        <label for='{{form.region.label}}'> {{form.region.label}} </label>
+                        {{form.region(class="form-control")}}
+                    </div>
+        
+                    <div class="form-group">
+                        <label for='{{form.home_type.label}}'> {{form.home_type.label}} </label>
+                        {{form.home_type(class="form-control")}}
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for='{{form.sqfeet.label}}'> {{form.sqfeet.label}} </label>
+                        {{form.sqfeet(class="form-control")}}
+                    </div>
+                    <div class="form-group">
+                        <label for='{{form.bed.label}}'> {{form.bed.label}} </label>
+                        {{form.bed(class="form-control")}}
+                    </div>
+                    <div class="form-group">
+                        <label for='{{form.bath.label}}'> {{form.bath.label}} </label>
+                        {{form.bath(class="form-control")}}
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for='{{form.laundry.label}}'> {{form.laundry.label}} </label>
+                        {{form.laundry(class="form-control")}}
+                    </div>
+                    <div class="form-group">
+                        <label for='{{form.parking.label}}'> {{form.parking.label}} </label>
+                        {{form.parking(class="form-control")}}
+                    </div>
+                    <div class="radio-inline">
+                        <label for='{{form.pet.label}}'> {{form.pet.label}} </label>
+                        {{form.pet(class="radio-inline")}}
+                    </div>
+                    
+                    <div class="radio-inline">
+                        <label class="radio-inline" for='{{form.smoke.label}}'> {{form.smoke.label}} </label>
+                        {{form.smoke(class_="radio-inline")}}
+                    </div>
+
+                   
+            
+                    {{form.submit(class="btn btn-outline-info")}}
+                </form>
+                            
+            </div>
+        </div>
+    </main>
+{% endblock %}
