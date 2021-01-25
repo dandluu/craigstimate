@@ -25,7 +25,7 @@
         </p>
         <table class="table table-hover table-sm justify-content-center">
           <caption>
-            Sources: <a class='source' href="#">Code</a> | <a class="source" href="#">Dataset</a>
+            Sources: <a class='source' href="https://github.com/dandluu/craigstimate">Code</a> | <a class="source" href="https://www.kaggle.com/austinreese/usa-housing-listings">Dataset</a>
           </caption>
           <!-- <tr> -->
           <!-- <th>Features</th> -->
@@ -113,13 +113,14 @@
           To use this model, simply start by selecting your state. You will be directed to a new form where you will enter your
           preferred region and similar housing options provided by Craigslist. Once submitted, you will get an estimated cost for rent in your region
           <strong>PLEASE NOTE: ESTIMATED PRICES ARE FOR REGIONAL AREAS ONLY</strong> 
-          If the prices are higher than what you expect please realise that the model is predicting rent for an entire region within a state so there is high variation.
+          If the prices are higher than what you expect please realise that the model is predicting rent for an entire region within a state so there can be high variation.
         </p>
           
         <p>
           <strong>Caveats:</strong>
-          The model is not dynamically retrained; therefore, fluctuations in rent prices from June 2020 to the time you run the
-          model may impact the accuracy of your rent prediction. Additionally, if regions across states are named the same, there will be errors in the prediction as well.
+          This model is not 100% perfect and requires careful consideration for when estimating.
+          The model is also not dynamically retrained; therefore, fluctuations in rent prices from June 2020 to the time you run the
+          model may impact the precision of your rent prediction. Additionally, if regions across states are named the same, there will be errors in the prediction as well.
         </p>
         {% endif %}
 
