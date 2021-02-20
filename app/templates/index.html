@@ -16,7 +16,7 @@
         
         {% if prediction_text %}
         <a class="btn btn-outline-secondary" href="{{ url_for('index') }}" role="button">Home</a>
-        <p class="text-center">
+        <p class="text-center estimate">
           Your estimated monthly rent is $ <strong> {{ prediction_text }} </strong>
         </p>
 
@@ -111,14 +111,14 @@
           
         <p>
           To use this model, simply start by selecting your state. You will be directed to a new form where you will enter your
-          preferred region and similar housing options provided by Craigslist. Once submitted, you will get an estimated cost for rent in your region
-          <strong>PLEASE NOTE: ESTIMATED PRICES ARE FOR REGIONAL AREAS ONLY</strong> 
+          preferred region and similar housing options provided by Craigslist. Once submitted, you will get an estimated cost for rent in your region.
+          <p><strong>PLEASE NOTE: ESTIMATED PRICES ARE FOR REGIONAL AREAS ONLY.</strong></p>
           If the prices are higher than what you expect please realise that the model is predicting rent for an entire region within a state so there can be high variation.
         </p>
           
         <p>
           <strong>Caveats:</strong>
-          This model is not 100% perfect and requires careful consideration for when estimating.
+          This model is not 100% perfect and requires careful consideration when estimating.
           The model is also not dynamically retrained; therefore, fluctuations in rent prices from June 2020 to the time you run the
           model may impact the precision of your rent prediction. Additionally, if regions across states are named the same, there will be errors in the prediction as well.
         </p>

@@ -26,11 +26,11 @@
 
 h1 {
     letter-spacing: 10px;
-    color:white;
+    color: white;
 }
 
 a {
-    color:white !important;
+    color: white !important;
 }
 
 h2 {
@@ -82,7 +82,6 @@ main {
 }
 
 #site-footer {
-    
     background-color: #2A2A2AB3 !important;
     z-index: 1 !important;
     position: fixed !important;
@@ -94,4 +93,8 @@ main {
     align-self: center !important;
     overflow: auto !important;
     /* font-size: 85% !important;  */
+}
+
+.estimate {
+    scale: 1.5;
 }
