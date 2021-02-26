@@ -17,9 +17,9 @@ def predict_rent(reg, typ, sqfeet, bed, baths, pets, smoking, laundry, parking):
     if model is None:
         with open('./app/artifacts/pipeline.pickle', 'rb') as f:
             model = pickle.load(f)
-        print("model loaded")
+        # print("model loaded")
     
-    print(reg, typ, sqfeet, bed, baths, pets, smoking, laundry, parking)
+    # print(reg, typ, sqfeet, bed, baths, pets, smoking, laundry, parking)
     # features = [reg, typ, sqfeet, bed, baths, pets, smoking, laundry, parking]
     # ftype =[type(i) for i in features]
 
@@ -47,6 +47,6 @@ def predict_rent(reg, typ, sqfeet, bed, baths, pets, smoking, laundry, parking):
                                    'laundry_options', 'parking_options'])
 
     if sqfeet < 500 or sqfeet > 3000:
-        return f'{round(model.predict(x2)[0])}, but this is inaccurate, use a square footage within a range of 500-3000'
+        return f'{round(model.predict(x2)[0])}, but this is likely an inaccurate estimate, use a square footage within a range of 500-3000'
 
     return round(model.predict(x2)[0])

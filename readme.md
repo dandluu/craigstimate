@@ -1,7 +1,8 @@
 # CRAIGSTIMATE
 
-## Access to the live demo: 
+Access to the live demo: 
 [DEMO](https://craigstimate-301619.uc.r.appspot.com/)
+
 
 Similar to a zillow estimate, Craigstimate attempts to give an estimated rent prediction within a region based on certain features. 
 

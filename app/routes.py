@@ -6,6 +6,8 @@ from app.model import predict_rent
 import firebase_admin
 from firebase_admin import credentials
 from firebase_admin import db
+from datetime import date, datetime
+import pytz
 
 cred = credentials.Certificate('./app/artifacts/craigstimate-301619-firebase-adminsdk-wz27w-47e423419f.json')
 firebase_admin.initialize_app(cred, {
@@ -106,9 +108,23 @@ def predict():
     ### Submitting User Input to Firebase, initialize db and collection ###
     ref = db.reference('/user_input')
 
+    
+    #record date of submission
+    today = date.today()
+
+
+    # mm/dd/YY
+    day = today.strftime("%m/%d/%Y")
+
+
+    tz_NY = pytz.timezone('America/New_York')
+    datetime_NY = datetime.now(tz_NY)
+    print(datetime_NY.strftime("%H:%M:%S"))
     #Submits data to Firebabse
     ref.push({
 
+        'date':day,
+        'time': datetime_NY.strftime("%H:%M:%S"),
         'state': state_name,
         'region': region,
         'home_type': home_type,
@@ -122,5 +138,6 @@ def predict():
 
     })
 
+    
     
     return render_template('index.html', prediction_text=f'{prediction}', features=features, form=form, state_name=state_name)
