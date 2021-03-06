@@ -15,7 +15,7 @@ def predict_rent(reg, typ, sqfeet, bed, baths, pets, smoking, laundry, parking):
     
     global model
     if model is None:
-        with open('./app/artifacts/pipeline.pickle', 'rb') as f:
+        with open('./app/artifacts/pipeline_02-2021.pickle', 'rb') as f:
             model = pickle.load(f)
         # print("model loaded")
     

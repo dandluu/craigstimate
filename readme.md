@@ -21,9 +21,9 @@ Features that were included in model training:
 Involved Processes include:
 - Data wrangling and cleaning
 - Outlier removal 
-- Dimensionality reductions
+- Dimensionality reduction
 - Possible feature selections/removal
-- One hot Encoding
+- One Hot Encoding with Column Transformation
 - Training with different models
 - Cross score validation
 
@@ -39,10 +39,10 @@ Involved Processes include:
 - Should we remove certain features to better predict price? (ie. pets, smoking, laundry, parking options)
 - Bin pricing to tiers of luxury, high cost
 - Can we dynamically retrain this model every X amounts of months to retrain the model to give more updated rent estimations?
-- What would happen if we trained the model using deep learning and neural networks instead of random forest? This would probably result in better predictiors and shorten training time significantly to train on a GPU instead of a CPU. We can set-up a  
+- What would happen if we trained the model using deep learning and neural networks instead of random forest? This would probably result in better predictiors and shorten training time significantly to train on a GPU instead of a CPU. 
 - Other ways to avoid overfitting?
 
 
-Author note: Jupyter Notebooks will be displayed and released as soon as the developer cleans up their notebook. 
+Author note: ~~Jupyter Notebooks will be displayed and released as soon as the developer cleans up their notebook.~~ Jupyter Notebook is released.
 
 

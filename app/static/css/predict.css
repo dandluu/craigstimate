@@ -2,7 +2,7 @@
     background-color: #2A2A2AB3 !important;
     /* background-color: rgba(0, 0, 0, 0.5) !important; */
     margin-top: bottom !important;
-    position: relative !important;
+    position: fixed !important;
     left: 0 !important;
     right: 0 !important;
     bottom: 0 !important;

@@ -55,6 +55,7 @@ p {
 
 body {
     background: url("../images/sfbackground.jpg") !important;
+    background-color: #F97D5A;
     background-size: cover !important;
     background-repeat: no-repeat !important;
     width: 100%;
@@ -66,6 +67,7 @@ main {
     justify-self: center !important;
     vertical-align: center !important;
     align-items: center !important;
+    position:relative !important;
     /* height: 1000px; */
 }
 
@@ -81,9 +83,8 @@ main {
 
 #site-footer {
     background-color: #2A2A2AB3 !important;
-    /* background-color: rgba(0, 0, 0, 0.5) !important; */
-    margin-top: bottom;
-    position: fixed;
+    z-index: 0 !important;
+    position: relative !important;
     left: 0 !important;
     right: 0 !important;
     bottom: 0 !important;
@@ -91,6 +92,7 @@ main {
     text-align: center !important;
     align-self: center !important;
     overflow: auto !important;
+    /* font-size: 85% !important;  */
 }
 
 .radio-inline {

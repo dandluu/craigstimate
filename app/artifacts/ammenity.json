@@ -1,1 +1,30 @@
-{"house_type": ["apartment", "condo", "cottage/cabin", "duplex", "flat", "house", "in-law", "loft", "manufactured", "townhouse"], "parking": ["attached garage", "carport", "detached garage", "no parking", "off-street parking", "street parking", "valet parking"], "laundry": ["laundry in bldg", "laundry on site", "no laundry on site", "w/d hookups", "w/d in unit"]}
+{
+    "house_type": [
+        "apartment",
+        "condo",
+        "cottage/cabin",
+        "duplex",
+        "flat",
+        "house",
+        "in-law",
+        "loft",
+        "manufactured",
+        "townhouse"
+    ],
+    "parking": [
+        "attached garage",
+        "carport",
+        "detached garage",
+        "no parking",
+        "off-street parking",
+        "street parking",
+        "valet parking"
+    ],
+    "laundry": [
+        "laundry in bldg",
+        "laundry on site",
+        "no laundry on site",
+        "w/d hookups",
+        "w/d in unit"
+    ]
+}

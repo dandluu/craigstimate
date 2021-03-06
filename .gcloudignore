@@ -13,6 +13,7 @@
 
 .git
 .gitignore
+pipeline_bath5_bed4.pickle
 
 # Python pycache:
 __pycache__/
