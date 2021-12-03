@@ -6,7 +6,7 @@ Access to the live demo:
 
 Similar to a zillow estimate, Craigstimate attempts to give an estimated rent prediction within a region based on certain features. 
 
-This project contains webscrapped data from craigslist from June of 2020. Approximately 350,000 records were obtained from different regions across the United States and trained using Random Forest Regression. This project represents a time constraint of 2 weeks to complete everything from cleaning, modeling, training, followed by creating a useable application and deploying it to production. Application was built using only Flask. Datebase chosen for this project was Firebase's real-time database to better understand Firebase's ecosystem.
+This project contains webscrapped data from craigslist from June of 2020. Approximately 380,000 records were obtained from different regions across the United States and trained using Random Forest Regression. This project represents a time constraint of 2 weeks to complete everything from cleaning, modeling, training, followed by creating a useable application and deploying it to production. Application was built using only Flask. Datebase chosen for this project was Firebase's real-time database to better understand Firebase's ecosystem.
 
 Features that were included in model training:
 - Region area
